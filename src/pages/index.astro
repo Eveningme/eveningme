@@ -23,6 +23,11 @@ const currentContent = content[locale] || content["zh"];
         --c-bg: #fdfbf7; /* Warm paper-like background */
         --c-text: #1a1a1a;
       }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
       body {
         margin: 0;
         padding: 0;
@@ -31,10 +36,10 @@ const currentContent = content[locale] || content["zh"];
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start; /* Align from top, not center */
         align-items: center;
         overflow: hidden;
-        padding-bottom: 10vh; /* Shift visual center up */
+        padding-top: 32vh; /* Start content at ~32% of viewport height */
       }
       .container {
         position: relative;
@@ -65,31 +70,13 @@ const currentContent = content[locale] || content["zh"];
         color: #666;
       }
 
-      /* Decorative elements for magazine feel */
-      .line {
-        width: 1px;
-        height: 100px;
-        background-color: #1a1a1a;
-        margin: 0 auto 2rem;
-        opacity: 0;
-        animation: scaleVertical 1s ease-out forwards;
-        transform-origin: top;
-      }
-
       @keyframes fadeUp {
         to {
           opacity: 1;
           transform: translateY(0);
         }
       }
-      @keyframes scaleVertical {
-        from {
-          transform: scaleY(0);
-        }
-        to {
-          transform: scaleY(1);
-        }
-      }
+
       .links {
         margin: 4rem auto 0;
         display: flex;
@@ -136,7 +123,6 @@ const currentContent = content[locale] || content["zh"];
     </style>
   </head>
   <body>
-    <div class="line"></div>
     <div class="container">
       <h1>{currentContent.title}</h1>
       <div class="subtitle">{currentContent.description}</div>
