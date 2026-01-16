@@ -17,12 +17,12 @@ export const content = {
     description: 'プログラマー・写真家・自由人',
     lang: 'ja',
     links: [
-      { label: 'Portal', url: 'https://evening.me' },
-      { label: 'Legacy Blog', url: 'https://eveningme.com' },
+      { label: 'ポータル', url: 'https://evening.me' },
+      { label: '旧ブログ', url: 'https://eveningme.com' },
       { label: 'GitHub', url: 'https://github.com/Eveningme' },
       { label: 'Instagram', url: 'https://instagram.com/eveningme' },
       { label: 'YouTube', url: 'https://youtube.com/@Eveningme' },
-      { label: 'Yesterday (Social)', url: 'https://yesterday.me/@Eveningme' },
+      { label: 'Yesterday (ソーシャル)', url: 'https://yesterday.me/@Eveningme' },
     ],
   },
   en: {

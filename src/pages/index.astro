@@ -96,8 +96,8 @@ const currentContent = content[locale] || content["zh"];
         flex-wrap: wrap;
         justify-content: flex-start; /* Align items to the start of the block */
         width: fit-content; /* Shrink container to fit content */
-        gap: 1.5rem 3rem;
-        max-width: 800px;
+        gap: 1.5rem 3rem; /* Increase gap back */
+        max-width: 100%; /* Allow full width to prevent wrapping */
         opacity: 0;
         animation: fadeUp 1.2s ease-out 0.8s forwards;
         transform: translateY(20px);
