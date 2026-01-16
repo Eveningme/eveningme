@@ -1,6 +1,8 @@
 <div align="center">
 
-### [周超然](https://zhouchaoran.com) &nbsp;·&nbsp; [周 超然](https://chozen.me) &nbsp;·&nbsp; [Travis Chow](https://travischou.com)
+[![周超然](https://img.shields.io/badge/周超然-zhouchaoran.com-FAFAFA?style=social&logo=safari)](https://zhouchaoran.com)
+[![周_超然](https://img.shields.io/badge/周_超然-chozen.me-FAFAFA?style=social&logo=safari)](https://chozen.me)
+[![Travis_Chow](https://img.shields.io/badge/Travis_Chow-travischou.com-FAFAFA?style=social&logo=safari)](https://travischou.com)
 
 程序员、摄影爱好者、自由人
 
