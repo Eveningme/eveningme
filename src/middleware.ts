@@ -7,8 +7,8 @@ import { defineMiddleware } from "astro:middleware";
 export const onRequest = defineMiddleware((context: any, next: any) => {
   const host = context.request.headers.get("host") || "";
   
-  // Clean host (remove port if present)
-  const domain = host.split(":")[0];
+  // Clean host (remove port if present) and remove www.
+  const domain = (host.split(":")[0] || "").replace(/^www\./, "");
 
   let locale = "zh"; // Default
 
