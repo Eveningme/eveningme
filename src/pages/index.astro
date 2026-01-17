@@ -1,6 +1,7 @@
 ---
 import { content, type Locale } from "../i18n/data";
 import Analytics from "@vercel/analytics/astro";
+import SpeedInsights from "@vercel/speed-insights/astro";
 import "../styles/main.css";
 
 const locale = Astro.locals.locale as Locale;
@@ -42,5 +43,6 @@ const currentContent = content[locale] || content["zh"];
       </div>
     </div>
     <Analytics />
+    <SpeedInsights />
   </body>
 </html>
