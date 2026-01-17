@@ -1,13 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <style>
+    :root {
+      --text-color: #1a1a1a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-color: #fdfbf7;
+      }
+    }
     text {
       font-family: "Cinzel", "Noto Serif SC", serif;
       font-weight: 900;
-      fill: #1a1a1a;
+      fill: var(--text-color);
       text-anchor: middle;
-    }
-    @media (prefers-color-scheme: dark) {
-      text { fill: #fdfbf7; }
     }
   </style>
   <!-- TRVS: Shifted down to y=58 for vertical centering -->
