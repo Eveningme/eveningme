@@ -6,11 +6,11 @@
 
 <br>
 
-[![Website](https://img.shields.io/badge/Website-evening.me-D4E157)](https://evening.me)
-[![Blog](https://img.shields.io/badge/Blog-eveningme.com-BFD95B)](https://eveningme.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Eveningme-AAD25F?logo=github)](https://github.com/Eveningme)
-[![Instagram](https://img.shields.io/badge/Instagram-eveningme-96CA64?logo=instagram)](https://instagram.com/eveningme)
-[![YouTube](https://img.shields.io/badge/YouTube-Eveningme-7EC368?logo=youtube)](https://youtube.com/@Eveningme)
-[![Yesterday](https://img.shields.io/badge/Yesterday-Eveningme-66BB6A?logo=mastodon)](https://yesterday.me/@Eveningme)
+[![Website](https://img.shields.io/badge/-evening.me-D4E157?logo=safari&logoColor=white)](https://evening.me)
+[![Blog](https://img.shields.io/badge/-eveningme.com-BFD95B?logo=rss&logoColor=white)](https://eveningme.com)
+[![GitHub](https://img.shields.io/badge/-Eveningme-AAD25F?logo=github)](https://github.com/Eveningme)
+[![Instagram](https://img.shields.io/badge/-eveningme-96CA64?logo=instagram)](https://instagram.com/eveningme)
+[![YouTube](https://img.shields.io/badge/-Eveningme-7EC368?logo=youtube)](https://youtube.com/@Eveningme)
+[![Yesterday](https://img.shields.io/badge/-Eveningme-66BB6A?logo=mastodon&logoColor=white)](https://yesterday.me/@Eveningme)
 
 </div>
