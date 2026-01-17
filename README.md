@@ -7,7 +7,7 @@
 <br>
 
 [![Website](https://img.shields.io/badge/-evening.me-D4E157?logo=linktree&logoColor=white)](https://evening.me)
-[![Blog](https://img.shields.io/badge/-eveningme.com-BFD95B?logo=home-assistant&logoColor=white)](https://eveningme.com)
+[![Blog](https://img.shields.io/badge/-eveningme.com-BFD95B?logo=linktree&logoColor=white)](https://eveningme.com)
 [![GitHub](https://img.shields.io/badge/-Eveningme-AAD25F?logo=github)](https://github.com/Eveningme)
 [![Instagram](https://img.shields.io/badge/-eveningme-96CA64?logo=instagram)](https://instagram.com/eveningme)
 [![YouTube](https://img.shields.io/badge/-Eveningme-7EC368?logo=youtube)](https://youtube.com/@Eveningme)
